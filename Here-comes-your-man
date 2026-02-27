@@ -1,0 +1,70 @@
+use_bpm 124
+
+live_loop :pro do
+  use_synth :dsaw
+  play :d4
+  sleep 0.5
+  play :d4
+  sleep 0.5
+  play :fs4
+  sleep 0.5
+  play :fs4
+  sleep 0.5
+  play :g4
+  sleep 0.5
+  play :b3
+  sleep 0.5
+  play :a3
+  sleep 1
+  play :a3
+  sleep 0.5
+  play :a3
+  sleep 0.5
+  play:b3
+  sleep 0.5
+  play:d4
+  sleep 0.5
+  play:d4
+  sleep 0.5
+  play:e4
+  sleep 0.5
+  play:d4
+  sleep 1
+  play :d4
+  sleep 0.5
+  play :d4
+  sleep 0.5
+  play :fs4
+  sleep 0.5
+  play :fs4
+  sleep 0.5
+  play :g4
+  sleep 0.5
+  play :b3
+  sleep 0.5
+  play :a3
+  sleep 1
+  play :a3
+  sleep 0.5
+  play :a3
+  sleep 0.5
+  play:b3
+  sleep 0.5
+  play:d4
+  sleep 0.5
+  play:d4
+  sleep 0.5
+  play:e4
+  sleep 0.5
+  play:d4
+  sleep 1
+end
+sleep 15
+live_loop :drums do
+  sample :drum_bass_hard
+  sleep 1
+end
+live_loop :bass do
+  sample :tabla_dhec
+  sleep 1
+end
