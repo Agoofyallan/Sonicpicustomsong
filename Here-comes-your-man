@@ -1,5 +1,10 @@
 use_bpm 124
+singer="C:/Users/Allan_Arriaga/Downloads/Pixies - Here Comes Your Man (Vocals Only).mp3"
 
+
+sample singer, amp:4
+
+sleep 17
 live_loop :pro do
   use_synth :dsaw
   play :d4
@@ -64,7 +69,13 @@ live_loop :drums do
   sample :drum_bass_hard
   sleep 1
 end
+sleep 16
 live_loop :bass do
-  sample :tabla_dhec
-  sleep 1
+  sample :bass_hit_c, amp:5
+  sleep 4
+end
+sleep 16
+live_loop :extra do
+  sample :guit_e_fifths
+  sleep 5
 end
